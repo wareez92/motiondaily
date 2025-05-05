@@ -2,6 +2,7 @@ function WhyUs() {
   return (
     <>
       <section>
+        <h1>Why Us?</h1>
         <div>
           <img src="null" alt="icon" />
           <h4>Input Info</h4>
