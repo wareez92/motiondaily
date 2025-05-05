@@ -4,22 +4,24 @@ import Promo from "./Promo";
 import WhyUs from "./WhyUs";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function Home({ promoPacks }) {
   return (
     <>
       <Nav />
-      <hr/>
+      <hr />
       <Hero />
-      <hr/>
+      <hr />
       <Promo promoPacks={promoPacks} />
-      <hr/>
+      <hr />
       <WhyUs />
-      <hr/>
+      <hr />
       <About />
-      <hr/>
-      <Contact/>
-      <hr/>
+      <hr />
+      <Contact />
+      <hr />
+      <Footer />
     </>
   );
 }
